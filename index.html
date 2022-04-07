@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+ <title>Frostworld Login</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+ <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+ <link rel="stylesheet" href="./styles/style.css">
+ 
+</head>
+
+<body>
+<!--Navbar Code-->
+<div class="container-fluid">
+ <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Frostworld</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="https://frosty9424.github.io/FrostCode/"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/Frosty9424/frostworld">REPO Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--Registration Code-->
+  <form action="action_page.php">
+    <div class="container">
+      <h1>Register to Frostworld</h1><form>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+  
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" id="email" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+  
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+      <hr>
+      <!--How did you hear about us?, Checkbox Code-->
+      <form>
+        <fieldset>
+              </div>
+                <div>
+                  <p>How did you hear about us?</p>
+                  <input type="checkbox" id="search-engine" name="source" value="search-engine">
+                  <label for="search-engine">Search Engine</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="word-of-mouth" name="source" value="word-of-mouth">
+                  <label for="word-of-mouth">Word of Mouth</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="press" name="source" value="press">
+                  <label for="press">Press</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="event" name="source" value="event">
+                  <label for="event">Event</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="billboard" name="source" value="billboard">
+                  <label for="billboard">Billboard</label>
+                </div>
+                <div>
+                  <button type="submit">Submit form</button>
+                </div>
+                </fieldset>
+              </form>
+              <hr>
+            
+              
+              <!--User Chooses what games he/she are interested in-->
+              <label for="cars">Choose Game Interest</label>
+              <select name="cars" id="cars">
+              <option value="volvo">RPG</option>
+              <option value="saab">Action</option>
+              <option value="mercedes">Battle Royale</option>
+              <option value="audi">Shooter</option>
+              </select>
+              <hr>
+              <form>
+                <!--Male or Female Selection-->
+                <fieldset>
+                      </div>
+                        <div>
+                        <p>Are you Male or Female?</p>
+                          <input type="checkbox" id="search-engine" name="source" value="search-engine">
+                          <label for="search-engine">Male</label>
+                        </div>
+                        <div>
+                          <input type="checkbox" id="word-of-mouth" name="source" value="word-of-mouth">
+                          <label for="word-of-mouth">Female</label>
+                        </div>
+                        <div>
+                          <input type="checkbox" id="press" name="source" value="press">
+                          <label for="press">Prefer not to say</label>
+                        </fieldset>
+                      </form>
+                      <hr>
+
+                      <label for="birthdaytime">Birthday (date and current time):</label>
+                      <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+                      <hr>
+              
+          
+      
+      <!--Terms of service-->
+      <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+      <form>
+      <button type="submit" class="registerbtn" onclick="msg(Congratulations)">Register</button>
+      </form>
+    </div>
+  
+
+
+
+  
+<!--Footer-->
+  </div>
+    <footer class="footer mt-auto py-3 bg-light">
+      <div class="container">
+      <span class="text-muted">Copyright:© Frosty Enterprises, Inc. All Rights Resverved. </span>
+    </div>
+  </footer>  
+</div>
+
+
+  
+
+
+ 
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script  src="./scripts/script.js"></script>
+
+
+
+</body>
+</html>
+
